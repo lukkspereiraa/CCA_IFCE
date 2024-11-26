@@ -1,6 +1,6 @@
 def selectionSort(array, size):
     
-    for ind in range(size):
+    for ind in range(size-1):
         min_index = ind
  
         for j in range(ind + 1, size):
