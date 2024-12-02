@@ -10,7 +10,7 @@ def selectionSort(array, size):
                 max_index = j
 
             if array[j] < array[min_index]:
-                min_index = j
+                min_index = j   
         
         (array[max_index], array[ind]) = (array[max_index], array[ind])
         (array[ind], array[min_index]) = (array[min_index], array[ind])
